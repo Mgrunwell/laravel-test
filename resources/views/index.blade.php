@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>Awards</h1>
-
+    @foreach ($awards as $award)
+       <p>{{$award}}</p> 
+    @endforeach
 </body>
 </html>

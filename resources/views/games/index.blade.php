@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Awards</h1>
-
+    <h1>Games:</h1>
+    @foreach ($games as $game)
+       <p>{{ $game->name }}</p> 
+    @endforeach
+    
 </body>
 </html>

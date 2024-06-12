@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Awards</h1>
-
+    <h1>Movies:
+    @foreach ($shawshankredemption as $sr)
+       <p>{{ $sr }}</p> 
+    @endforeach
+    </h1>
 </body>
 </html>
